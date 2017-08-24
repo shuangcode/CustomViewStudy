@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+  <com.xsh.customviewstudy.view.CustomImageTextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:padding="10dp"
+      zhy:image="@drawable/ic_launcher"
+      zhy:imageScaleType="center"
+      zhy:titleText="hello andorid ! "
+      zhy:titleTextColor="#ff0000"
+      zhy:titleTextSize="30sp" />
+
+  <com.xsh.customviewstudy.view.CustomImageTextView
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:padding="10dp"
+      zhy:image="@drawable/ic_launcher"
+      zhy:imageScaleType="fillXY"
+      zhy:titleText="helloworldwelcome"
+      zhy:titleTextColor="#00ff00"
+      zhy:titleTextSize="20sp" />
+
+  <com.xsh.customviewstudy.view.CustomImageTextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:padding="10dp"
+      zhy:image="@drawable/lmj"
+      zhy:imageScaleType="center"
+      zhy:titleText="妹子~"
+      zhy:titleTextColor="#ff0000"
+      zhy:titleTextSize="12sp" />
+
+</LinearLayout>
