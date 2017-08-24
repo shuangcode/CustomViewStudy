@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import com.xsh.customviewstudy.activity.CustomImageTextViewActivity;
+import com.xsh.customviewstudy.activity.CustomProgressBarActivity;
 import com.xsh.customviewstudy.activity.CustomTextViewActivty;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void customImageTextView(View view){
         Intent intent = new Intent(this, CustomImageTextViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void customProgressBar(View view){
+        Intent intent = new Intent(this, CustomProgressBarActivity.class);
         startActivity(intent);
     }
 }

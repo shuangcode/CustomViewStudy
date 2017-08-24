@@ -17,4 +17,10 @@
       android:layout_height="wrap_content"
       android:text="自定义ImageTextView"
       android:onClick="customImageTextView"/>
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="自定义ProgressBarView"
+      android:onClick="customProgressBar"/>
 </LinearLayout>

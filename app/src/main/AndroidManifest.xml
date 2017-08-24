@@ -17,7 +17,8 @@
       </intent-filter>
     </activity>
     <activity android:name=".activity.CustomTextViewActivty" />
-    <activity android:name=".activity.CustomImageTextViewActivity"></activity>
+    <activity android:name=".activity.CustomImageTextViewActivity" />
+    <activity android:name=".activity.CustomProgressBarActivity"></activity>
   </application>
 
 </manifest>
