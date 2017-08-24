@@ -7,6 +7,7 @@ import android.view.View;
 import com.xsh.customviewstudy.activity.CustomImageTextViewActivity;
 import com.xsh.customviewstudy.activity.CustomProgressBarActivity;
 import com.xsh.customviewstudy.activity.CustomTextViewActivty;
+import com.xsh.customviewstudy.activity.CustomVolumeContrlBarActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,4 +31,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CustomProgressBarActivity.class);
         startActivity(intent);
     }
+    public void customVolumeControl(View view){
+        Intent intent = new Intent(this, CustomVolumeContrlBarActivity.class);
+        startActivity(intent);
+    }
+
+
 }
