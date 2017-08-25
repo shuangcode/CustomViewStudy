@@ -19,7 +19,8 @@
     <activity android:name=".activity.CustomTextViewActivty" />
     <activity android:name=".activity.CustomImageTextViewActivity" />
     <activity android:name=".activity.CustomProgressBarActivity" />
-    <activity android:name=".activity.CustomVolumeContrlBarActivity"></activity>
+    <activity android:name=".activity.CustomVolumeContrlBarActivity" />
+    <activity android:name=".view.CustomImgContainerActivity"></activity>
   </application>
 
 </manifest>

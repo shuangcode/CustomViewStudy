@@ -8,6 +8,7 @@ import com.xsh.customviewstudy.activity.CustomImageTextViewActivity;
 import com.xsh.customviewstudy.activity.CustomProgressBarActivity;
 import com.xsh.customviewstudy.activity.CustomTextViewActivty;
 import com.xsh.customviewstudy.activity.CustomVolumeContrlBarActivity;
+import com.xsh.customviewstudy.view.CustomImgContainerActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void customVolumeControl(View view){
         Intent intent = new Intent(this, CustomVolumeContrlBarActivity.class);
+        startActivity(intent);
+    }
+
+    public void customImgContainer(View view){
+        Intent intent = new Intent(this, CustomImgContainerActivity.class);
         startActivity(intent);
     }
 

@@ -29,4 +29,10 @@
       android:layout_height="wrap_content"
       android:text="自定义VolumeControl"
       android:onClick="customVolumeControl"/>
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="自定义ViewGroup"
+      android:onClick="customImgContainer"/>
 </LinearLayout>
