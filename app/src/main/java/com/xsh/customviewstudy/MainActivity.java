@@ -8,6 +8,8 @@ import com.xsh.customviewstudy.activity.CustomImageTextViewActivity;
 import com.xsh.customviewstudy.activity.CustomProgressBarActivity;
 import com.xsh.customviewstudy.activity.CustomTextViewActivty;
 import com.xsh.customviewstudy.activity.CustomVolumeContrlBarActivity;
+import com.xsh.customviewstudy.activity.VDHActivity1;
+import com.xsh.customviewstudy.activity.VDHActivity2;
 import com.xsh.customviewstudy.view.CustomImgContainerActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -42,5 +44,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void vdhActivity1(View view){
+        Intent intent = new Intent(this, VDHActivity1.class);
+        startActivity(intent);
+    }
+
+    public void vdhActivity2(View view){
+        Intent intent = new Intent(this, VDHActivity2.class);
+        startActivity(intent);
+    }
 
 }

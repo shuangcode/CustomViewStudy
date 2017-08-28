@@ -35,4 +35,16 @@
       android:layout_height="wrap_content"
       android:text="自定义ViewGroup"
       android:onClick="customImgContainer"/>
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="VDH1"
+      android:onClick="vdhActivity1"/>
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="VDH2"
+      android:onClick="vdhActivity2"/>
 </LinearLayout>
