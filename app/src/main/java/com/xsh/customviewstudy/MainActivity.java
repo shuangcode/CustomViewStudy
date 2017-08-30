@@ -4,10 +4,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import com.xsh.customviewstudy.activity.CircleImageDrawableActivity;
 import com.xsh.customviewstudy.activity.CustomImageTextViewActivity;
 import com.xsh.customviewstudy.activity.CustomProgressBarActivity;
 import com.xsh.customviewstudy.activity.CustomTextViewActivty;
 import com.xsh.customviewstudy.activity.CustomVolumeContrlBarActivity;
+import com.xsh.customviewstudy.activity.RoundImageDrawableActivity;
 import com.xsh.customviewstudy.activity.VDHActivity1;
 import com.xsh.customviewstudy.activity.VDHActivity2;
 import com.xsh.customviewstudy.view.CustomImgContainerActivity;
@@ -51,6 +53,24 @@ public class MainActivity extends AppCompatActivity {
 
     public void vdhActivity2(View view){
         Intent intent = new Intent(this, VDHActivity2.class);
+        startActivity(intent);
+    }
+
+    /**
+     * 圆形的Bitmap
+     * @param view
+     */
+    public void roundBitmap(View view){
+        Intent intent = new Intent(this, RoundImageDrawableActivity.class);
+        startActivity(intent);
+    }
+
+    /**
+     * 圆角的Bitmap
+     * @param view
+     */
+    public void circleBitmap(View view){
+        Intent intent = new Intent(this, CircleImageDrawableActivity.class);
         startActivity(intent);
     }
 

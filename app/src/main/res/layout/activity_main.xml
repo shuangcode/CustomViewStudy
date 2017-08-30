@@ -47,4 +47,17 @@
       android:layout_height="wrap_content"
       android:text="VDH2"
       android:onClick="vdhActivity2"/>
+
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="RoundImageDrawableActivity"
+      android:onClick="roundBitmap"/>
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="CircleImageDrawableActivity"
+      android:onClick="circleBitmap"/>
 </LinearLayout>
