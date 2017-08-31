@@ -9,6 +9,7 @@ import com.xsh.customviewstudy.activity.CustomImageTextViewActivity;
 import com.xsh.customviewstudy.activity.CustomProgressBarActivity;
 import com.xsh.customviewstudy.activity.CustomTextViewActivty;
 import com.xsh.customviewstudy.activity.CustomVolumeContrlBarActivity;
+import com.xsh.customviewstudy.activity.PullToRefreshActivity;
 import com.xsh.customviewstudy.activity.RoundImageDrawableActivity;
 import com.xsh.customviewstudy.activity.SwipeDeleteActivity;
 import com.xsh.customviewstudy.activity.VDHActivity1;
@@ -77,11 +78,20 @@ public class MainActivity extends AppCompatActivity {
 
 
     /**
-     * 圆角的Bitmap
+     * 侧滑删除
      * @param view
      */
     public void swipeDelete(View view){
         Intent intent = new Intent(this, SwipeDeleteActivity.class);
+        startActivity(intent);
+    }
+
+    /**
+     * 下拉刷新
+     * @param view
+     */
+    public void pullToRefresh(View view){
+        Intent intent = new Intent(this, PullToRefreshActivity.class);
         startActivity(intent);
     }
 

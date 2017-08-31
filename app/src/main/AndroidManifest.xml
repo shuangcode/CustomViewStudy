@@ -26,10 +26,11 @@
     <activity android:name=".activity.WhiteScreenActivity" />
     <activity
         android:name=".activity.WhiteScreenActivity2"
-        android:theme="@style/Theme2"></activity>
+        android:theme="@style/Theme2" />
     <activity android:name=".activity.RoundImageDrawableActivity" />
     <activity android:name=".activity.CircleImageDrawableActivity" />
-    <activity android:name=".activity.SwipeDeleteActivity"></activity>
+    <activity android:name=".activity.SwipeDeleteActivity" />
+    <activity android:name=".activity.PullToRefreshActivity"></activity>
   </application>
 
 </manifest>
