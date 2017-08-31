@@ -10,6 +10,7 @@ import com.xsh.customviewstudy.activity.CustomProgressBarActivity;
 import com.xsh.customviewstudy.activity.CustomTextViewActivty;
 import com.xsh.customviewstudy.activity.CustomVolumeContrlBarActivity;
 import com.xsh.customviewstudy.activity.RoundImageDrawableActivity;
+import com.xsh.customviewstudy.activity.SwipeDeleteActivity;
 import com.xsh.customviewstudy.activity.VDHActivity1;
 import com.xsh.customviewstudy.activity.VDHActivity2;
 import com.xsh.customviewstudy.view.CustomImgContainerActivity;
@@ -71,6 +72,16 @@ public class MainActivity extends AppCompatActivity {
      */
     public void circleBitmap(View view){
         Intent intent = new Intent(this, CircleImageDrawableActivity.class);
+        startActivity(intent);
+    }
+
+
+    /**
+     * 圆角的Bitmap
+     * @param view
+     */
+    public void swipeDelete(View view){
+        Intent intent = new Intent(this, SwipeDeleteActivity.class);
         startActivity(intent);
     }
 

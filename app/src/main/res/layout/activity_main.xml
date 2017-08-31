@@ -60,4 +60,10 @@
       android:layout_height="wrap_content"
       android:text="CircleImageDrawableActivity"
       android:onClick="circleBitmap"/>
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="swipeDelete"
+      android:onClick="swipeDelete"/>
 </LinearLayout>

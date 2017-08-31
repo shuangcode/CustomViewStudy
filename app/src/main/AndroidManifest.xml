@@ -23,17 +23,13 @@
     <activity android:name=".view.CustomImgContainerActivity" />
     <activity android:name=".activity.VDHActivity1" />
     <activity android:name=".activity.VDHActivity2" />
-    <activity android:name=".activity.WhiteScreenActivity"></activity>
-
+    <activity android:name=".activity.WhiteScreenActivity" />
     <activity
         android:name=".activity.WhiteScreenActivity2"
-        android:theme="@style/Theme2">
-
-    </activity>
-
-    <activity android:name=".activity.RoundImageDrawableActivity"></activity>
-
-    <activity android:name=".activity.CircleImageDrawableActivity"></activity>
+        android:theme="@style/Theme2"></activity>
+    <activity android:name=".activity.RoundImageDrawableActivity" />
+    <activity android:name=".activity.CircleImageDrawableActivity" />
+    <activity android:name=".activity.SwipeDeleteActivity"></activity>
   </application>
 
 </manifest>
